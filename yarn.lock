@@ -819,19 +819,12 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.2.0.tgz#b03e42eeddf5898e00646e4c840fa07ba8dcad7f"
-  integrity sha512-oouEibCbHMVdZSDlJBO6bZmID/zA/G/Qx3H1d3rSNPTD+L8UNKvCat7aKWSJ74zYbm5zWGh0GQN0hKj8zYFTCg==
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.3.1":
+  version "7.11.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
+  integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
   dependencies:
-    regenerator-runtime "^0.12.0"
-
-"@babel/runtime@^7.3.1":
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.3.1.tgz#574b03e8e8a9898eaf4a872a92ea20b7846f6f2a"
-  integrity sha512-7jGW8ppV0ant637pIqAcFfQDDH1orEPGJb8aXfUozuCU3QqX7rX4DA8iwrbPrR1hcH0FTTHz47yQnk+bl5xHQA==
-  dependencies:
-    regenerator-runtime "^0.12.0"
+    regenerator-runtime "^0.13.4"
 
 "@babel/template@^7.1.0", "@babel/template@^7.1.2", "@babel/template@^7.2.2":
   version "7.2.2"
@@ -1695,7 +1688,7 @@ babel-plugin-syntax-dynamic-import@^6.18.0:
 
 babel-plugin-syntax-jsx@^6.18.0:
   version "6.18.0"
-  resolved "http://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz#0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946"
+  resolved "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz#0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946"
 
 babel-plugin-syntax-object-rest-spread@^6.8.0:
   version "6.13.0"
@@ -2174,7 +2167,7 @@ buffer-xor@^1.0.3:
 
 buffer@^3.0.1:
   version "3.6.0"
-  resolved "http://registry.npmjs.org/buffer/-/buffer-3.6.0.tgz#a72c936f77b96bf52f5f7e7b467180628551defb"
+  resolved "https://registry.npmjs.org/buffer/-/buffer-3.6.0.tgz#a72c936f77b96bf52f5f7e7b467180628551defb"
   dependencies:
     base64-js "0.0.8"
     ieee754 "^1.1.4"
@@ -2313,7 +2306,7 @@ camelcase-css@^2.0.0:
 
 camelcase-keys@^2.0.0:
   version "2.1.0"
-  resolved "http://registry.npmjs.org/camelcase-keys/-/camelcase-keys-2.1.0.tgz#308beeaffdf28119051efa1d932213c91b8f92e7"
+  resolved "https://registry.npmjs.org/camelcase-keys/-/camelcase-keys-2.1.0.tgz#308beeaffdf28119051efa1d932213c91b8f92e7"
   dependencies:
     camelcase "^2.0.0"
     map-obj "^1.0.0"
@@ -2655,7 +2648,7 @@ commander@~2.17.1:
 
 commander@~2.8.1:
   version "2.8.1"
-  resolved "http://registry.npmjs.org/commander/-/commander-2.8.1.tgz#06be367febfda0c330aa1e2a072d3dc9762425d4"
+  resolved "https://registry.npmjs.org/commander/-/commander-2.8.1.tgz#06be367febfda0c330aa1e2a072d3dc9762425d4"
   dependencies:
     graceful-readlink ">= 1.0.0"
 
@@ -4667,7 +4660,7 @@ file-type@^10.2.0, file-type@^10.7.0:
 
 file-type@^3.1.0, file-type@^3.8.0:
   version "3.9.0"
-  resolved "http://registry.npmjs.org/file-type/-/file-type-3.9.0.tgz#257a078384d1db8087bc449d107d52a52672b9e9"
+  resolved "https://registry.npmjs.org/file-type/-/file-type-3.9.0.tgz#257a078384d1db8087bc449d107d52a52672b9e9"
 
 file-type@^4.2.0, file-type@^4.3.0:
   version "4.4.0"
@@ -4907,6 +4900,15 @@ fs-extra@^7.0.0, fs-extra@^7.0.1:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
+fs-extra@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
+  integrity sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
 fs-minipass@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/fs-minipass/-/fs-minipass-1.2.5.tgz#06c277218454ec288df77ada54a03b8702aacb9d"
@@ -5025,16 +5027,16 @@ gatsby-plugin-manifest@^2.0.29:
     "@babel/runtime" "^7.0.0"
     sharp "^0.21.3"
 
-gatsby-plugin-netlify@^2.0.13:
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.0.13.tgz#8cd3bfed759c514548338b1def8321a78c7d77f4"
-  integrity sha512-jDTsCggApexizXphNDksAF3u4g3b5+O8K72R+6I1BdsFnLxY4BE2V2tSbEZZKUwkggVWQbNGmvQrCt2JVjRPyQ==
+gatsby-plugin-netlify@^2.3.17:
+  version "2.3.17"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.3.17.tgz#db8b6a0699987e9a11b703fa4de554440b93dbc2"
+  integrity sha512-jAJUUdFvE/gB6L9qu+oF27T8+pIIewWsRxB039ZVRNFKZIIXew8GRC6NB/sL//YJifOgmg8pTXOihMEDR5oWSA==
   dependencies:
-    "@babel/runtime" "^7.0.0"
-    fs-extra "^4.0.2"
+    "@babel/runtime" "^7.11.2"
+    fs-extra "^8.1.0"
     kebab-hash "^0.1.2"
-    lodash "^4.17.10"
-    webpack-assets-manifest "^3.0.2"
+    lodash "^4.17.20"
+    webpack-assets-manifest "^3.1.1"
 
 gatsby-plugin-offline@^2.0.25:
   version "2.0.25"
@@ -5339,7 +5341,7 @@ get-stream@3.0.0, get-stream@^3.0.0:
 
 get-stream@^2.2.0:
   version "2.3.1"
-  resolved "http://registry.npmjs.org/get-stream/-/get-stream-2.3.1.tgz#5f38f93f346009666ee0150a054167f91bdd95de"
+  resolved "https://registry.npmjs.org/get-stream/-/get-stream-2.3.1.tgz#5f38f93f346009666ee0150a054167f91bdd95de"
   dependencies:
     object-assign "^4.0.1"
     pinkie-promise "^2.0.0"
@@ -5446,7 +5448,7 @@ globby@^6.1.0:
 
 globby@^8.0.1:
   version "8.0.1"
-  resolved "http://registry.npmjs.org/globby/-/globby-8.0.1.tgz#b5ad48b8aa80b35b814fc1281ecc851f1d2b5b50"
+  resolved "https://registry.npmjs.org/globby/-/globby-8.0.1.tgz#b5ad48b8aa80b35b814fc1281ecc851f1d2b5b50"
   dependencies:
     array-union "^1.0.1"
     dir-glob "^2.0.0"
@@ -5518,6 +5520,11 @@ graceful-fs@^4.1.10, graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.
   version "4.1.15"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
+
+graceful-fs@^4.2.0:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
+  integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
 
 "graceful-readlink@>= 1.0.0":
   version "1.0.1"
@@ -6133,7 +6140,7 @@ internal-ip@^3.0.1:
 
 into-stream@^3.1.0:
   version "3.1.0"
-  resolved "http://registry.npmjs.org/into-stream/-/into-stream-3.1.0.tgz#96fb0a936c12babd6ff1752a17d05616abd094c6"
+  resolved "https://registry.npmjs.org/into-stream/-/into-stream-3.1.0.tgz#96fb0a936c12babd6ff1752a17d05616abd094c6"
   dependencies:
     from2 "^2.1.1"
     p-is-promise "^1.1.0"
@@ -6909,7 +6916,7 @@ load-bmfont@^1.2.3:
 
 load-json-file@^1.0.0:
   version "1.1.0"
-  resolved "http://registry.npmjs.org/load-json-file/-/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"
+  resolved "https://registry.npmjs.org/load-json-file/-/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"
   dependencies:
     graceful-fs "^4.1.2"
     parse-json "^2.2.0"
@@ -7055,10 +7062,10 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.20, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
+  version "4.17.20"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
+  integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
 
 logalot@^2.0.0, logalot@^2.1.0:
   version "2.1.0"
@@ -7238,7 +7245,7 @@ memory-fs@^0.4.0, memory-fs@~0.4.1:
 
 meow@^3.3.0:
   version "3.7.0"
-  resolved "http://registry.npmjs.org/meow/-/meow-3.7.0.tgz#72cb668b425228290abbfa856892587308a801fb"
+  resolved "https://registry.npmjs.org/meow/-/meow-3.7.0.tgz#72cb668b425228290abbfa856892587308a801fb"
   dependencies:
     camelcase-keys "^2.0.0"
     decamelize "^1.1.2"
@@ -8032,7 +8039,7 @@ p-cancelable@^0.3.0:
 
 p-cancelable@^0.4.0:
   version "0.4.1"
-  resolved "http://registry.npmjs.org/p-cancelable/-/p-cancelable-0.4.1.tgz#35f363d67d52081c8d9585e37bcceb7e0bbcb2a0"
+  resolved "https://registry.npmjs.org/p-cancelable/-/p-cancelable-0.4.1.tgz#35f363d67d52081c8d9585e37bcceb7e0bbcb2a0"
 
 p-defer@^1.0.0:
   version "1.0.0"
@@ -8950,7 +8957,7 @@ pretty-error@^2.1.1:
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
-  resolved "http://registry.npmjs.org/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
+  resolved "https://registry.npmjs.org/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
 
 private@^0.1.6:
   version "0.1.8"
@@ -8986,7 +8993,7 @@ process@~0.5.1:
 
 progress@^1.1.8:
   version "1.1.8"
-  resolved "http://registry.npmjs.org/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
+  resolved "https://registry.npmjs.org/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
 
 progress@^2.0.0:
   version "2.0.3"
@@ -9128,7 +9135,7 @@ qs@6.5.2, qs@~6.5.2:
 
 query-string@^5.0.1:
   version "5.1.1"
-  resolved "http://registry.npmjs.org/query-string/-/query-string-5.1.1.tgz#a78c012b71c17e05f2e3fa2319dd330682efb3cb"
+  resolved "https://registry.npmjs.org/query-string/-/query-string-5.1.1.tgz#a78c012b71c17e05f2e3fa2319dd330682efb3cb"
   dependencies:
     decode-uri-component "^0.2.0"
     object-assign "^4.1.0"
@@ -9444,6 +9451,11 @@ regenerator-runtime@^0.12.0:
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
   integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
+
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
 
 regenerator-transform@^0.13.4:
   version "0.13.4"
@@ -11351,9 +11363,10 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-webpack-assets-manifest@^3.0.2:
+webpack-assets-manifest@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/webpack-assets-manifest/-/webpack-assets-manifest-3.1.1.tgz#39bbc3bf2ee57fcd8ba07cda51c9ba4a3c6ae1de"
+  integrity sha512-JV9V2QKc5wEWQptdIjvXDUL1ucbPLH2f27toAY3SNdGZp+xSaStAgpoMcvMZmqtFrBc9a5pTS1058vxyMPOzRQ==
   dependencies:
     chalk "^2.0"
     lodash.get "^4.0"
