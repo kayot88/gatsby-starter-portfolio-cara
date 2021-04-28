@@ -1,0 +1,32 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: gatsby-image
+    versions:
+    - 2.10.0
+    - 2.11.0
+    - 3.0.0
+    - 3.1.0
+    - 3.2.0
+    - 3.3.0
+  - dependency-name: react-spring
+    versions:
+    - 8.0.27
+    - 9.0.0
+    - 9.1.0
+    - 9.1.1
+  - dependency-name: gatsby-plugin-netlify
+    versions:
+    - 2.10.0
+    - 2.11.0
+  - dependency-name: gatsby-plugin-styled-components
+    versions:
+    - 3.9.0
+  - dependency-name: eslint-plugin-prettier
+    versions:
+    - 3.3.1
